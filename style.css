@@ -1,0 +1,58 @@
+ /*
+Theme Name: Shop Theme
+Theme URI: https://domiinnique.com
+Description: Nice theme
+Author: Dominika
+Author URI: https://domiinnique.com
+Template: twentytwenty
+Version: 0.1
+*/
+
+@import url("../twentytwenty/style.css");
+
+body {
+background: #cecece;
+}
+
+.footer-nav-widgets-wrapper {
+background-color: #cecece; }
+
+#post-91
+{ background-color: white; }
+* {
+  box-sizing:border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+               "Helvetica Neue", sans-serif;
+}
+
+main {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem;
+}
+.post {
+  border:1px solid #ccc;
+  padding: 1rem;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.post h2 {
+  text-transform:uppercase;
+  font-weight:200;
+  color:royalblue;
+}
+
+p {
+    color: hotpink;
+}
+
+@media all and (min-width: 600px) {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media all and (min-width: 300px) {
+  grid-template-columns: 1fr;
+}
